@@ -17,7 +17,6 @@ def rock_paper_scissors():
         print("Invalid input")
 
     computer_input = computer()
-
     if computer_input == user_input:
         print("It's a tie!")
 
